@@ -1820,7 +1820,7 @@ FROM
 	'' as "MAC Address",
 	'' as "Authenticated Scan",
 	'' as "Baseline Configuration Name",
-	tags ->> 'os_name_and_version' as "OS Name and Version",
+	'' as "OS Name and Version",
 	'' as "Location",
 	'AWS ECR Image' as "Asset Type",
 	'' as "Hardware Make/Model",
