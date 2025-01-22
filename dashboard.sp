@@ -2082,7 +2082,6 @@ from
   )
 	
 	-- EC2 Fedramp Inventory
-	UNION
 	
 select
   --instance_id as "Unique Asset Identifier",
